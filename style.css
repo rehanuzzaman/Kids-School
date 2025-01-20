@@ -7,6 +7,8 @@
 
 body {
     background-color: #f7f7f7;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 nav {
@@ -68,6 +70,46 @@ nav button {
     color: white;
     font-size: 20px;
     font-weight: 600;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: -50px;
+}
+
+.empowering {
+    color: #fea301;
+}
+
+.towards-vision {
+    color: #01acfd;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-top: 75px;
+}
+
+.banner button {
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 @media (max-width: 576px) {
