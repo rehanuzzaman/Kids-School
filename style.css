@@ -14,7 +14,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .site-title {
@@ -75,7 +75,7 @@ nav button {
 .banner {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .banner h1 {
@@ -97,6 +97,13 @@ nav button {
     margin-top: 75px;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .banner button {
     background-color: #111;
     color: white;
@@ -113,6 +120,11 @@ nav button {
 }
 
 @media (max-width: 576px) {
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     .site-title h1 {
         display: none;
     }
@@ -150,5 +162,37 @@ nav button {
         border-bottom: 1px solid rgb(221, 221, 221);
         padding: 10px;
         justify-content: space-between;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner img {
+        width: 90vw;
+        justify-content: center;
+    }
+
+    .banner h1 {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: -30px;
+    }
+
+    .banner p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+
+    .banner button {
+        display: flex;
+        padding: 6px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
     }
 }
