@@ -72,6 +72,16 @@ nav button {
     font-weight: 600;
 }
 
+marquee {
+    background-color: #01acfd;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: -135px;
+    margin-right: -135px;
+}
+
 .banner {
     display: flex;
     align-items: center;
@@ -99,8 +109,8 @@ nav button {
 
 .hero {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;
 }
 
@@ -159,7 +169,7 @@ nav button {
     }
 
     nav {
-        border-bottom: 1px solid rgb(221, 221, 221);
+        border-bottom: 1px solid #fea301;
         padding: 10px;
         justify-content: space-between;
     }
@@ -168,6 +178,13 @@ nav button {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .banner img {
