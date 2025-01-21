@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #f7f7f7;
     margin-left: 140px;
     margin-right: 140px;
 }
@@ -327,5 +327,13 @@ marquee {
         justify-content: center;
         align-items: center;
         border-radius: 8px;
+    }
+
+    .curriculum {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-button {
+        display: none;
     }
 }
