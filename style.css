@@ -135,7 +135,7 @@ marquee {
     font-weight: 700;
 }
 
-.curiculum-sectio {
+.curriculum-section {
     background-image: url(./assets/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -327,6 +327,11 @@ marquee {
         justify-content: center;
         align-items: center;
         border-radius: 8px;
+    }
+
+    marquee {
+        width: 100%;
+        margin: 45px 0px;
     }
 
     .curriculum {
