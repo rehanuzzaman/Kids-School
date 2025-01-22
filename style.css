@@ -245,6 +245,10 @@ marquee {
     margin: 10px;
 }
 
+.nav-button button:hover {
+    background-color: #01acfd;
+}
+
 .our-stories {
     background: linear-gradient(to top, #01acfd, transparent), url(./assets/bg.png);
     margin-left: -140px;
@@ -262,11 +266,6 @@ marquee {
     font-size: 46px;
     font-weight: 700;
 }
-
-/* .stories {
-    margin-left: 140px;
-    margin-right: 140px;
-} */
 
 .story-card {
     display: flex;
