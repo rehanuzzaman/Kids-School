@@ -332,6 +332,60 @@ marquee {
     display: none;
 }
 
+footer {
+    background-color: #01acfd;
+    margin-left: -140px;
+    margin-right: -140px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    color: white;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+footer h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bottom-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info {
+    width: 400px;
+}
+
+.bottom-menu {
+    width: 400px;
+}
+
+.social {
+    width: 400px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
 @media (max-width: 576px) {
     body {
         margin-left: 15px;
