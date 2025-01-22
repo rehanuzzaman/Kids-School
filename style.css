@@ -72,6 +72,10 @@ nav button {
     font-weight: 600;
 }
 
+nav button:hover {
+    background-color: #01acfd;
+}
+
 marquee {
     background-color: #01acfd;
     color: white;
@@ -80,6 +84,10 @@ marquee {
     margin-top: 10px;
     margin-left: -135px;
     margin-right: -135px;
+}
+
+marquee:hover {
+    background-color: #fea301;
 }
 
 .banner {
@@ -112,6 +120,7 @@ marquee {
     justify-content: left;
     align-items: left;
     flex-direction: column;
+    width: 50%;
 }
 
 .banner button {
@@ -127,6 +136,10 @@ marquee {
     gap: 10px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.banner button:hover {
+    background-color: #01acfd;
 }
 
 .standard-curriculum {
@@ -213,6 +226,10 @@ marquee {
     font-size: 15px;
 }
 
+.curriculum a:hover {
+    color: #111;
+}
+
 .read-more-1 {
     color: #01acfd;
 }
@@ -278,6 +295,10 @@ marquee {
     margin: 10px;
 }
 
+.story-card:hover {
+    scale: 0.95;
+}
+
 .story-card img {
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -285,7 +306,7 @@ marquee {
 }
 
 .date {
-    background-color: #01acfd;
+    background-color: #fea301;
     color: white;
     border: none;
     border-radius: 20px;
@@ -327,6 +348,11 @@ marquee {
     font-weight: 700;
     background-color: #111;
     margin: 50px;
+}
+
+.story-button:hover {
+    background-color: white;
+    color: #01acfd;
 }
 
 .story-card.hidden-card {
@@ -388,6 +414,10 @@ footer li {
     font-size: 20px;
 }
 
+footer img:hover {
+    scale: 0.9;
+}
+
 @media (max-width: 576px) {
     body {
         margin-left: 15px;
@@ -444,6 +474,7 @@ footer li {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: auto;
     }
 
     .banner img {
