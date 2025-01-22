@@ -328,6 +328,10 @@ marquee {
     margin: 50px;
 }
 
+.story-card.hidden-card {
+    display: none;
+}
+
 @media (max-width: 576px) {
     body {
         margin-left: 15px;
@@ -437,5 +441,32 @@ marquee {
 
     .nav-button {
         display: none;
+    }
+
+    .story-card {
+        width: 175px;
+    }
+
+    .date {
+        width: 65%;
+        font-size: 9px;
+        margin-top: -18px;
+    }
+
+    .stories h4 {
+        font-size: 9px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .story-card.big-card {
+        display: none;
+    }
+
+    .story-card.hidden-card {
+        display: block;
     }
 }
