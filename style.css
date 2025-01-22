@@ -245,6 +245,89 @@ marquee {
     margin: 10px;
 }
 
+.our-stories {
+    background-image: url(./assets/bg.png);
+    background: linear-gradient(to top, #01acfd, transparent);;
+    margin-left: -140px;
+    margin-right: -140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-stories h1 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.stories {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.story-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.story-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.date {
+    background-color: #01acfd;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 200px;
+    margin-top: -20px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.story-card h4 {
+    margin: 10px;
+}
+
+.story-card p {
+    margin: 10px;
+}
+
+.stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.story-button {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 197px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #111;
+    margin: 50px;
+}
+
 @media (max-width: 576px) {
     body {
         margin-left: 15px;
